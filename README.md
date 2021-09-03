@@ -188,7 +188,63 @@ Instance Discrimination
 
 ### Fine-Tuning
 
+#### Pre-Trainined Model Constrained Fine-Tuning
+* Explicit inductive bias for transfer learning with convolutional networks
+* Delta: Deep learning transfer using feature map with attention for convolutional networks
+* Learning what and where to transfer
+* Co-tuning for transfer learning
+* Stochastic Normalization
+
+#### Dilemma of Catastrophic Forgetting and Negative Transfer
+* Catastrophic forgetting meets negative transfer: Batch spectral shrinkage for safe transfer learning
+
+#### Fine-Tuning from Multi-Models
+* Transferability and hardness of supervised classification tasks
+* An information-theoretic approach to transferability in task transfer learning
+* Leep: A new measure to evaluate transferability of learned representations
+* Logme: Practical assessment of pre-trained models for transfer learning
+* Progressive neural networks
+* Knowledge flow: Improve upon your teachers
+* Zoo-Tuning: Adaptive Transfer from a Zoo of Models
+
+
 ### Knowledge Distillation
+
+#### Response-Based Knowledge
+* Distilling the knowledge in a neural network
+* Do deep nets really need to be deep
+* Learning efficient object detection models with knowledge distillation
+* Fast human pose estimation
+* Conditional teacher-student learning
+
+#### Feature-Based Knowledge
+* Fitnets: Hints for thin deep nets
+* Paying more attention to attention: Improving the performance of convolutional neural networks via attention transfer
+* Like what you like: Knowledge distill via neuron selectivity transfer
+* Learning deep representations with probabilistic knowledge transfer
+* Paraphrasing complex network: Network compression via factor transfer
+* Knowledge distillation via route constrained optimization
+* Knowledge transfer via distillation of activation boundaries formed by hidden neurons
+* Rocket launching: A universal and efficient framework for training well-performing light net
+* Cross-Layer Distillation with Semantic Calibration
+
+#### Relation-Based Knowledge
+Feature Relations
+* A gift from knowledge distillation: Fast optimization, network minimization and transfer learning
+* Self-supervised knowledge distillation using singular value decomposition
+* Better and faster: knowledge transfer from multiple self-supervised learning tasks via graph distillation for video classification
+* Graph-based knowledge distillation by multi-head attention network
+* Heterogeneous Knowledge Distillation using Information Flow Modeling
+
+Instance Relations
+* Knowledge distillation via instance relationship graph
+* Relational knowledge distillation
+* Learning student networks via feature embedding
+* Learning deep representations with probabilistic knowledge transfer
+* Probabilistic Knowledge Transfer for Lightweight Deep Representation Learning
+* Similarity-preserving knowledge distillation
+* Correlation congruence for knowledge distillation
+
 
 ### Prompt Learning
 
