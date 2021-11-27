@@ -1,254 +1,148 @@
 # Awesome-Transferability-in-Deep-Learning
- 
-## Foundation Models
+
+[![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
+This repo is a collection of AWESOME things about transferablity in deep learning, including papers, code, etc. Feel free to star and fork.
+
+# Contents
+
+- [Contents](#contents)
+- [Introduction](#introduction)
+- [Pre-Training Models](#pre-training-models)
+- [Supervised Pre-Training](#supervised-pre-training)
+    - [Meta-Learning](#meta-learning)
+    - [Causal Learning](#causal-learning)
+- [Unsupervised Pre-Training](#unsupervised-pre-training)
+    - [Generative Learning](#generative-learning)
+    - [Contrastive Learning](#contrastive-learning)
+- [Task Adaptation](#task-adaptation)
+    - [Catastrophic Forgetting](#catastrophic-forgetting)
+    - [Negative Transfer](#negative-transfer)
+    - [Parameter Efficiency](#parameter-efficiency)
+    - [Data Efficiency](#data-efficiency)    
+- [Domain Adaptation](#domain-adaptation)
+    - [Theory](#theory)
+    - [Statistics Matching](#statistics-matching)
+    - [Domain Adversarial Learning](#domain-adversarial-learning)
+    - [Hypothesis Adversarial Learning](#hypothesis-adversarial-learning)
+    - [Domain Translation](#domain-translation)
+    - [Semi-Supervised Learning](#semi-supervised-learning)
+- [Evaluation](#evaluation)
+    - [Cross-Task Evaluation](#cross-task-evaluation)
+    - [Cross-Domain Evaluation](#cross-domain-evaluation)
+
+
+[comment]: <> (Theory, Survey, Benchmarks, Library, Dataset, Lectures and Tutorials)
+
+## Introduction
+
+## Pre-Training Models
+
+**Survey**
+
+**Paper**
+
+**Library**
 
 ## Supervised Pre-Training
 
-### Improving Standard Pre-Training
+**Survey**
 
-* Big Transfer (BiT): General Visual Representation Learning
-
-#### Dataset
-#### Architecture
-#### Augmentation
-
-### Domain Invariant Learning
-
-#### Domain Invariant Representation Learning
-
-Adversarial Training
-* Domain generalization with adversarial feature learning
-* Dlow: Domain flow for adaptation and generalization
-* Deep domain generalization via conditional invariant adversarial networks
-* Correlation-aware adversarial domain adaptation and generalization
-
-Theoretical Guarantees
-* Learn to expect the unexpected: Probably approximately correct domain generalization
-* Domain adversarial neural networks for domain generalization: When it works and how to improve
-
-Moment Matching
-* Domain generalization via entropy regularization
-* Deep domain confusion: Maximizing for domain invariance
-* Visual domain adaptation with manifold embedded distribution alignment
-* Domain adaptation via transfer component analysis
-* Transfer learning with dynamic distribution adaptation
-* Unified deep supervised domain adaptation and generalization
-* Domain generalization with optimal transport and metric learning
-* Deep coral: Correlation alignment for deep domain adaptation
-* Return of frustratingly easy domain adaptation
-* Synthetic to real adaptation with generative correlation alignment networks
-
-#### Statistics Normalization
-
-* Two at once: Enhancing
-learning and generalization capacities via ibn-net
-* Arbitrary style transfer in real-time with adaptive instance normalization
-* Batch-instance normalization for adaptively style-invariant neural networks
-* Style normalization and restitution for domain generalization and adaptation
-
-
-### Distributionally Robust Optimization
-
-#### f-Divergence Constraints
-* Learning models with uniform performance via distributionally robust optimization
-* Distributionally robust neural networks for group shifts: On the importance of regularization for worst-case generalization
-* Stochastic gradient methods for distributionally robust optimization with f-divergences
-
-#### Wasserstein Distance Constraints
-* Certifying some distributional robustness with principled adversarial training
-* Stable adversarial learning under distributional shifts
-* Data-driven distributionally robust optimization using the wasserstein metric: Performance guarantees and tractable reformulations
-* Generalizing to unseen domains via adversarial data augmentation
-
-### Causal Learning
-
-#### Causal Inference
-* Causal inference by using invariant prediction: identification and confidence intervals
-* Invariant Causal Prediction for Sequential Data
-* Anchor regression: heterogeneous data meets causality
-* Invariant Causal Prediction for Nonlinear Models
-* Active Invariant Causal Prediction: Experiment Selection through Stability
-* Regularizing towards Causal Invariance: Linear Models with Proxies
-
-#### Invariant Risk Minimization
-* Invariant risk minimization
-* Invariant risk minimization games
-* Domain extrapolation via regret minimization
-* Out-of-distribution generalization via risk extrapolation (rex)
-* Risk variance penalization: From distributional robustness to causality
-* Domain generalization using causal matching
-* The risks of invariant risk minimization
-* Does invariant risk minimization capture invariance?
-* Empirical or invariant risk minimization? a sample complexity perspective
-
+**Paper**
 
 ### Meta-Learning
 
-#### Update-Based Meta-Learning
-* Learning to learn by gradient descent by gradient descent
+**Survey**
 
-#### Gradient-Based Meta-Learning
-* Model-agnostic meta-learning for fast adaptation of deep networks
+**Paper**
 
-#### Memory-Based Meta-Learning
-* Meta-learning with memory-augmented neural networks
+### Causal Learning
+**Survey**
 
-#### Metric-Based Meta-Learning
-* Matching networks for one shot learning
+**Paper**
 
 ## Unsupervised Pre-Training
+**Survey**
 
-### Generative Unsupervised Learning
+**Paper**
 
-#### Auto-Regressive Model
-* Xlnet: Generalized autoregressive pretraining for language understanding
-* Improving language understanding by generative pre-training
-* Language models are unsupervised multitask learners
-* Pixel recurrent neural networks
-* Conditional image generation with pixelcnn decoders
-* Wavenet: A generative model for raw audio
-* Graphrnn: Generating realistic graphs with deep auto-regressive models
-* Generating realistic molecular graphs with optimized propertie.
-* Graph convolutional policy network for goal-directed molecular graph generation
+### Generative Learning
+**Survey**
 
-#### Auto-Encoding Model
-Context Prediction Model
-* Distributed representations of words and phrases and their compositionality
-* Enriching word vectors with subword information
-* Deepwalk: Online learning of social representations
-* Line: Large-scale information network embedding
+**Paper**
 
-Denoising Auto-Encoding Model
-* Bert: Pretraining of deep bidirectional transformers for language understanding
-* Spanbert: Improving pre-training by representing and predicting spans
-* Ernie: Enhanced representation through knowledge integration
-* Ernie: Enhanced language representation with informative entities
-* Gpt-gnn: Generative pre-training of graph neural networks
+### Contrastive Learning
+**Survey**
 
-Variational Auto-Encoding Model
-* Auto-encoding variational bayes
-* Neural discrete representation learning
-* Generating diverse high-fidelity images with vq-vae-2
-* Variational graph auto-encoders
-* Deep variational network embedding in wasserstein space
-graph: A generative model for joint community detection and node representation learning
+**Paper**
 
-### Contrastive Unsupervised Learning
-* Noise-contrastive estimation: A new estimation principle for unnormalized statistical models
+## Task Adaptation
 
-#### Context-Instance Contrast
-Predict Relative Position
-* Self-supervised visual feature learning with deep neural networks: A survey
-* Unsupervised visual representation learning by context prediction
-* Learning image representations by completing damaged jigsaw puzzles
-* Unsupervised learning of visual representations by solving jigsaw puzzles
-* Iterative reorganization with weak spatial constraints: Solving arbitrary jigsaw puzzles for unsupervised representation learning
-* Unsupervised representation learning by predicting image rotations
-* Self-supervised learning of pretext-invariant representations
-* Bert: Pretraining of deep bidirectional transformers for language understanding
-* Albert: A lite bert for self-supervised learning of language representations
+### Catastrophic Forgetting
+**Survey**
 
-Maximize Mutual Information
-* Learning deep representations by mutual information estimation and maximization
-* Representation learning with contrastive predictive coding
-* Learning representations by maximizing mutual information across views
-* Contrastive multiview coding
-* A mutual information maximization perspective of language representation learning
-* Deep graph infomax
-* Infograph: Unsupervised and semi-supervised graph-level representation learning via mutual information maximization
-* Contrastive multi-view representation learning on graphs
-* Strategies for pre-training graph neural networks
-* Self- supervised graph representation learning via global context prediction
+**Paper**
 
-#### Instance-Instance Contrast
-Cluster Discrimination
-* Deep clustering for unsupervised learning of visual features
-* Local aggregation for unsupervised learning of visual embeddings
-* Clusterfit: Improving generalization of visual representations
-* Unsupervised learning of visual features by contrasting cluster assignments
-* Self-supervised pretraining of visual features in the wild
-* Multi-stage self-supervised learning for graph convolutional networks
-* When does self- supervision help graph convolutional networks?
+### Negative Transfer
+**Survey**
 
-Instance Discrimination
-* Unsupervised feature learning via non-parametric instance discrimination
-* Contrastive multiview coding
-* Momentum contrast for unsupervised visual representation learning
-* Self-supervised learning of pretext-invariant representations
-* A simple framework for contrastive learning of visual representations
-* Improved baselines with momentum contrastive learning
-* What makes for good views for contrastive learning
-* Bootstrap your own latent: A new approach to self-supervised learning
-* Exploring simple siamese representation learning
-* Representation learning via invariant causal mechanisms
-* Gcc: Graph contrastive coding for graph neural network pre-training
+**Paper**
 
+### Parameter Efficiency
+**Survey**
 
-## Model Adaptation
+**Paper**
 
-### Fine-Tuning
+### Data Efficiency
+**Survey**
 
-#### Pre-Trainined Model Constrained Fine-Tuning
-* Explicit inductive bias for transfer learning with convolutional networks
-* Delta: Deep learning transfer using feature map with attention for convolutional networks
-* Learning what and where to transfer
-* Co-tuning for transfer learning
-* Stochastic Normalization
-
-#### Dilemma of Catastrophic Forgetting and Negative Transfer
-* Catastrophic forgetting meets negative transfer: Batch spectral shrinkage for safe transfer learning
-
-#### Fine-Tuning from Multi-Models
-* Transferability and hardness of supervised classification tasks
-* An information-theoretic approach to transferability in task transfer learning
-* Leep: A new measure to evaluate transferability of learned representations
-* Logme: Practical assessment of pre-trained models for transfer learning
-* Progressive neural networks
-* Knowledge flow: Improve upon your teachers
-* Zoo-Tuning: Adaptive Transfer from a Zoo of Models
-
-
-### Knowledge Distillation
-
-#### Response-Based Knowledge
-* Distilling the knowledge in a neural network
-* Do deep nets really need to be deep
-* Learning efficient object detection models with knowledge distillation
-* Fast human pose estimation
-* Conditional teacher-student learning
-
-#### Feature-Based Knowledge
-* Fitnets: Hints for thin deep nets
-* Paying more attention to attention: Improving the performance of convolutional neural networks via attention transfer
-* Like what you like: Knowledge distill via neuron selectivity transfer
-* Learning deep representations with probabilistic knowledge transfer
-* Paraphrasing complex network: Network compression via factor transfer
-* Knowledge distillation via route constrained optimization
-* Knowledge transfer via distillation of activation boundaries formed by hidden neurons
-* Rocket launching: A universal and efficient framework for training well-performing light net
-* Cross-Layer Distillation with Semantic Calibration
-
-#### Relation-Based Knowledge
-Feature Relations
-* A gift from knowledge distillation: Fast optimization, network minimization and transfer learning
-* Self-supervised knowledge distillation using singular value decomposition
-* Better and faster: knowledge transfer from multiple self-supervised learning tasks via graph distillation for video classification
-* Graph-based knowledge distillation by multi-head attention network
-* Heterogeneous Knowledge Distillation using Information Flow Modeling
-
-Instance Relations
-* Knowledge distillation via instance relationship graph
-* Relational knowledge distillation
-* Learning student networks via feature embedding
-* Learning deep representations with probabilistic knowledge transfer
-* Probabilistic Knowledge Transfer for Lightweight Deep Representation Learning
-* Similarity-preserving knowledge distillation
-* Correlation congruence for knowledge distillation
-
-
-### Prompt Learning
+**Paper**
 
 ## Domain Adaptation
+
+### Theory
+**Survey**
+
+**Paper**
+
+### Statistics Matching
+**Survey**
+
+**Paper**
+
+### Domain Adversarial Learning
+**Survey**
+
+**Paper**
+
+### Hypothesis Adversarial Learning
+**Survey**
+
+**Paper**
+
+### Domain Translation
+**Survey**
+
+**Paper**
+
+### Semi-Supervised Learning
+**Survey**
+
+**Paper**
+
+## Evaluation
+
+### Cross-Task Evaluation
+
+**Dataset**
+**Library**
+
+### Cross-Domain Evaluation
+
+**Dataset**
+**Library**
+
+
 
 
 
