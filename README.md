@@ -148,14 +148,30 @@ This repo is a collection of AWESOME things about transferablity in deep learnin
 ### Parameter Efficiency
 **Survey**
 
+
 **Paper**
+- Parameter-Efficient Transfer Learning with Diff Pruning [[ACL 2021]](https://aclanthology.org/2021.acl-long.378.pdf) [[Pytorch]](https://github.com/dguo98/DiffPruning)
+- BERT and PALs: Projected Attention Layers for Efficient Adaptation in Multi-Task Learning [[ICML 2019]](http://proceedings.mlr.press/v97/stickland19a/stickland19a.pdf) [[Pytorch]](https://github.com/AsaCooperStickland/Bert-n-Pals)
+- Parameter-Efficient Transfer Learning for NLP [[ICML 2019]](http://proceedings.mlr.press/v97/houlsby19a/houlsby19a.pdf) [[Tensorflow]](https://github.com/google-research/adapter-bert)
+- Side-Tuning: A Baseline for Network Adaptation via Additive Side Networks [[31 Dec 2019]](https://arxiv.org/abs/1912.13503) [[Pytorch]](https://github.com/jozhang97/side-tuning)
+- Piggyback: Adapting a Single Network to Multiple Tasks by Learning to Mask Weights [[ECCV 2018]](https://openaccess.thecvf.com/content_ECCV_2018/papers/Arun_Mallya_Piggyback_Adapting_a_ECCV_2018_paper.pdf) [[Pytorch]](https://github.com/arunmallya/piggyback)
+- Learning multiple visual domains with residual adapters [[NIPS 2017]](https://proceedings.neurips.cc/paper/2017/file/e7b24b112a44fdd9ee93bdf998c6ca0e-Paper.pdf)
 
 ### Data Efficiency
-#### Metric Learning
 **Survey**
+- Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing [[28 Jul 2021]](https://arxiv.org/abs/2107.13586)
 
 **Paper**
+- Finetuned Language Models Are Zero-Shot Learners [[3 Sep 2021]](https://arxiv.org/pdf/2109.01652v3.pdf) [[Tensorflow]](https://github.com/google-research/FLAN)
+- Prefix-Tuning: Optimizing Continuous Prompts for Generation [[ACL 2021]](https://aclanthology.org/2021.acl-long.353.pdf) [[Pytorch]](https://github.com/XiangLi1999/PrefixTuning)
+- Exploiting Cloze Questions for Few Shot Text Classification and Natural Language Inference [[EACL 2020]](https://aclanthology.org/2021.eacl-main.20.pdf) [[Pytorch]](https://github.com/timoschick/pet)
+- Language Models are Few-Shot Learners [[NIPS 2020]](https://papers.nips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf)
 - A Closer Look at Few-shot Classification [[ICLR 2019]](https://openreview.net/pdf?id=HkxLXnAcFQ)
+- Prototypical Networks for Few-shot Learning [[NIPS 2017]](https://papers.nips.cc/paper/2017/file/cb8da6767461f2812ae4290eac7cbc42-Paper.pdf) [[Pytorch]](https://github.com/jakesnell/prototypical-networks)
+- Matching Networks for One Shot Learning [[NIPS 2016]](https://papers.nips.cc/paper/2016/hash/90e1357833654983612fb05e3ec9148c-Abstract.html) [[Tensorflow]](https://github.com/AntreasAntoniou/MatchingNetworks)
+
+**Library**
+- [few-shot](https://github.com/oscarknagg/few-shot)
 
 ## Domain Adaptation
 
