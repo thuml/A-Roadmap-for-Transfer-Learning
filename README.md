@@ -38,28 +38,49 @@ This repo is a collection of AWESOME things about transferablity in deep learnin
 
 ## Pre-Training Models
 
-**Survey**
-
 **Paper**
+- Intrinsic Dimensionality Explains the Effectiveness of Language Model Fine-Tuning
+  [[ACL 2021]](https://aclanthology.org/2021.acl-long.568.pdf)
+- An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale [[ICLR 2021]](https://openreview.net/pdf?id=YicbFdNTTy) [[Tensorflow]](https://github.com/google-research/vision_transformer)
+- Do Better ImageNet Models Transfer Better? [[CVPR 2019]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Kornblith_Do_Better_ImageNet_Models_Transfer_Better_CVPR_2019_paper.pdf)
+- Group Normalization [[ECCV 2018]](https://openaccess.thecvf.com/content_ECCV_2018/papers/Yuxin_Wu_Group_Normalization_ECCV_2018_paper.pdf)
+- Attention Is All You Need [[NIPS 2017]](https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf)
+- Layer Normalization [[21 Jul 2016]] (https://arxiv.org/abs/1607.06450)
+- Deep Residual Learning for Image Recognition [[CVPR 2016 Best]](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+- Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift [[ICML 2015]](http://proceedings.mlr.press/v37/ioffe15.pdf)
 
 **Library**
+- [[Transformers]](https://github.com/huggingface/transformers)
+- [[PyTorch Image Models]](https://github.com/rwightman/pytorch-image-models)
 
 ## Supervised Pre-Training
 
-**Survey**
-
 **Paper**
+- Exploring the Limits of Large Scale Pre-training [[5 Oct 2021]](https://arxiv.org/abs/2110.02095)
+- Do Adversarially Robust ImageNet Models Transfer Better? [[NIPS 2020]](https://proceedings.neurips.cc/paper/2020/file/24357dd085d2c4b1a88a7e0692e60294-Paper.pdf)
+- Big Transfer (BiT): General Visual Representation Learning [[ECCV 2020]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123500477.pdf) [[Code]](https://github.com/google-research/big_transfer)
+- Billion-scale Semi-supervised Learning for Image Classification [[2 May 2019]](https://arxiv.org/abs/1905.00546) [[Pytorch]](https://github.com/leaderj1001/Billion-scale-semi-supervised-learning)
+- ImageNet-trained CNNs are biased towards texture; increasing shape bias improves accuracy and robustness [[ICLR 2019]](https://openreview.net/pdf?id=Bygh9j09KX) [[Code]](https://github.com/rgeirhos/texture-vs-shape)
+- Domain Adaptive Transfer Learning with Specialist Models [[16 Nov 2018]](https://arxiv.org/pdf/1811.07056.pdf)
+- Exploring the Limits of Weakly Supervised Pretraining [[ECCV 2018]](https://openaccess.thecvf.com/content_ECCV_2018/papers/Dhruv_Mahajan_Exploring_the_Limits_ECCV_2018_paper.pdf) [[Pytorch]](https://github.com/facebookresearch/WSL-Images)
+
 
 ### Meta-Learning
 
 **Survey**
 
 **Paper**
+- Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks [[ICML 2017]](https://proceedings.mlr.press/v70/finn17a/finn17a.pdf) [[Tensorflow]](https://github.com/cbfinn/maml)  [[Pytorch]](https://github.com/dragen1860/MAML-Pytorch)
+
+**Library**
+- [[learn2learn: A Library for {Meta-Learning} Research]](https://github.com/learnables/learn2learn)
+
 
 ### Causal Learning
 **Survey**
 
 **Paper**
+- Invariant Risk Minimization[[5 Jul 2019]] (https://arxiv.org/abs/1907.02893) [[Pytorch]](https://github.com/facebookresearch/InvariantRiskMinimization)
 
 ## Unsupervised Pre-Training
 **Survey**
@@ -70,23 +91,39 @@ This repo is a collection of AWESOME things about transferablity in deep learnin
 **Survey**
 
 **Paper**
+- Language Models are Few-Shot Learners [[NIPS 2020]](https://papers.nips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf) 
+- BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding [[NAACL 2019]](https://aclanthology.org/N19-1423.pdf) [[Tensorflow]](https://github.com/google-research/bert) 
+
 
 ### Contrastive Learning
 **Survey**
 
 **Paper**
+- An Empirical Study of Training Self-Supervised Vision Transformers [[ICCV 2021 Oral]](https://arxiv.org/pdf/2104.02057.pdf) [[Pytorch]](https://github.com/facebookresearch/moco-v3)
+- Exploring Simple Siamese Representation Learning [[CVPR 2021]](https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_Exploring_Simple_Siamese_Representation_Learning_CVPR_2021_paper.pdf) [[Pytorch]](https://github.com/facebookresearch/simsiam)
+- A Simple Framework for Contrastive Learning of Visual Representations [[ICML 2020]](http://proceedings.mlr.press/v119/chen20j/chen20j.pdf) [[Tensorflow]](https://github.com/google-research/simclr) [[Pytorch]](https://github.com/sthalles/SimCLR)
+
 
 ## Task Adaptation
+
+**Paper**
+- How transferable are features in deep neural networks? [[NIPS 2014]](https://proceedings.neurips.cc/paper/2014/file/375c71349b295fbe2dcdca9206f20a06-Paper.pdf)
+- DeCAF: A Deep Convolutional Activation Feature for Generic Visual Recognition [[ICML 2014]](http://proceedings.mlr.press/v32/donahue14.pdf)
+- OverFeat: Integrated Recognition, Localization and Detection using Convolutional Networks [[21 Dec 2013]](https://arxiv.org/abs/1312.6229)
 
 ### Catastrophic Forgetting
 **Survey**
 
 **Paper**
+- SMART: Robust and Efficient Fine-Tuning for Pre-trained Natural Language Models through Principled Regularized Optimization [[ACL 2020]](https://aclanthology.org/2020.acl-main.197.pdf) [[Pytorch]](https://github.com/namisan/mt-dnn)
+- An Embarrassingly Simple Approach for Transfer Learning from Pretrained Language Models [[NAACL 2019]](https://aclanthology.org/N19-1213.pdf) [[Pytorch]](https://github.com/alexandra-chron/siatl)
 
 ### Negative Transfer
 **Survey**
 
 **Paper**
+- Catastrophic Forgetting Meets Negative Transfer [[NIPS 2019]](https://papers.nips.cc/paper/2019/file/c6bff625bdb0393992c9d4db0c6bbe45-Paper.pdf) [[Pytorch]](https://github.com/thuml/Batch-Spectral-Shrinkage)
+- Learning What and Where to Transfer [[ICML 2019]](http://proceedings.mlr.press/v97/jang19b/jang19b.pdf) [[Pytorch]](https://github.com/alinlab/L2T-ww)
 
 ### Parameter Efficiency
 **Survey**
@@ -94,9 +131,11 @@ This repo is a collection of AWESOME things about transferablity in deep learnin
 **Paper**
 
 ### Data Efficiency
+#### Metric Learning
 **Survey**
 
 **Paper**
+- A Closer Look at Few-shot Classification [[ICLR 2019]](https://openreview.net/pdf?id=HkxLXnAcFQ)
 
 ## Domain Adaptation
 
@@ -105,8 +144,8 @@ This repo is a collection of AWESOME things about transferablity in deep learnin
 
 **Paper**
 - Bridging Theory and Algorithm for Domain Adaptation [[ICML2019]](http://proceedings.mlr.press/v97/zhang19i/zhang19i.pdf) [[Pytorch]](https://github.com/thuml/MDD)
-- On Learning Invariant Representation for Domain Adaptation [[ICML2019]](https://arxiv.org/abs/1901.09453v1) [[code]](https://github.com/KeiraZhao/On-Learning-Invariant-Representations-for-Domain-Adaptation)
 - Unsupervised Domain Adaptation Based on Source-guided Discrepancy [[AAAI2019]](https://arxiv.org/abs/1809.03839)
+- A theory of learning from different domains [[Machine Learning 2010]](https://www.alexkulesza.com/pubs/adapt_mlj10.pdf)
 - Learning Bounds for Domain Adaptation [[NIPS2007]](http://papers.nips.cc/paper/3212-learning-bounds-for-domain-adaptation)
 - Analysis of Representations for Domain Adaptation [[NIPS2006]](https://papers.nips.cc/paper/2983-analysis-of-representations-for-domain-adaptation)
 
@@ -114,6 +153,7 @@ This repo is a collection of AWESOME things about transferablity in deep learnin
 **Survey**
 
 **Paper**
+- Representation Subspace Distance for Domain Adaptation Regression [[ICML 2021]](http://proceedings.mlr.press/v139/chen21u/chen21u.pdf) [[Pytorch]](https://github.com/thuml/Domain-Adaptation-Regression)
 - Adaptive Batch Normalization for practical domain adaptation [[Pattern Recognition(2018)]](https://www.sciencedirect.com/science/article/pii/S003132031830092X)
 - DeepJDOT: Deep Joint distribution optimal transport for unsupervised domain adaptation [[ECCV2018]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Bharath_Bhushan_Damodaran_DeepJDOT_Deep_Joint_ECCV_2018_paper.pdf) [[Keras]](https://github.com/bbdamodaran/deepJDOT)
 - Joint Distribution Optimal Transportation for Domain Adaptation [[NIPS2017]](http://papers.nips.cc/paper/6963-joint-distribution-optimal-transportation-for-domain-adaptation.pdf) [[python]](https://github.com/rflamary/JDOT) [[Python Optimal Transport Library]](https://github.com/rflamary/POT)
@@ -158,6 +198,8 @@ This repo is a collection of AWESOME things about transferablity in deep learnin
 
 - CyCADA: Cycle-Consistent Adversarial Domain Adaptation [[ICML2018]](http://proceedings.mlr.press/v80/hoffman18a.html) [[Pytorch(official)]](https://github.com/jhoffman/cycada_release)
 - Generate To Adapt: Aligning Domains using Generative Adversarial Networks [[CVPR2018]](https://arxiv.org/abs/1704.01705) [[Pytorch(Official)]](https://github.com/yogeshbalaji/Generate_To_Adapt)
+  
+- Using simulation and domain adaptation to improve efficiency of deep robotic grasping [[ICRA 2018]](https://arxiv.org/abs/1709.07857)
 - Unsupervised Image-to-Image Translation Networks [[NIPS2017]](http://papers.nips.cc/paper/6672-unsupervised-image-to-image-translation-networks) [[Pytorch(Official)]](https://github.com/mingyuliutw/unit)
 - Unsupervised Pixel–Level Domain Adaptation with Generative Adversarial Networks [[CVPR2017]](http://openaccess.thecvf.com/content_cvpr_2017/papers/Bousmalis_Unsupervised_Pixel-Level_Domain_CVPR_2017_paper.pdf) [[Tensorflow(Official)]](https://github.com/tensorflow/models/tree/master/research/domain_adaptation) [[Pytorch]](https://github.com/vaibhavnaagar/pixelDA_GAN)
 - Unsupervised Cross-Domain Image Generation [[ICLR2017 Poster]](https://openreview.net/forum?id=Sk2Im59ex) [[TensorFlow]](https://github.com/yunjey/domain-transfer-network)
@@ -186,6 +228,9 @@ This repo is a collection of AWESOME things about transferablity in deep learnin
 ### Cross-Domain Evaluation
 
 **Dataset**
+
+- XNLI: Evaluating Cross-lingual Sentence Representations [[EMNLP 2018]](https://aclanthology.org/D18-1269.pdf) [[Download]](https://github.com/facebookresearch/XNLI)
+
 
 **Library**
 
