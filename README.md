@@ -126,7 +126,7 @@ This repo is a collection of AWESOME things about transferablity in deep learnin
 - An Embarrassingly Simple Approach for Transfer Learning from Pretrained Language Models [[NAACL 2019]](https://aclanthology.org/N19-1213.pdf) [[Pytorch]](https://github.com/alexandra-chron/siatl)
 - SpotTune: Transfer Learning through Adaptive Fine-tuning [[CVPR 2019]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Guo_SpotTune_Transfer_Learning_Through_Adaptive_Fine-Tuning_CVPR_2019_paper.pdf) [[Pytorch]](https://github.com/gyhui14/spottune)
 - Universal Language Model Fine-tuning for Text Classification [[ACL 2018]](https://aclanthology.org/P18-1031.pdf)
-- Explicit Inductive Bias for Transfer Learning with Convolutional Networks [[ICML 2018]]
+- Explicit Inductive Bias for Transfer Learning with Convolutional Networks [[ICML 2018]](http://proceedings.mlr.press/v80/li18a/li18a.pdf)
 - Learning without Forgetting [[PAMI 2018]](https://arxiv.org/pdf/1606.09282.pdf)
 - Overcoming catastrophic forgetting in neural networks [[PNAS 2017]](https://www.pnas.org/content/pnas/114/13/3521.full.pdf)
 
@@ -134,8 +134,16 @@ This repo is a collection of AWESOME things about transferablity in deep learnin
 **Survey**
 
 **Paper**
+- When Does Pretraining Help? Assessing Self-Supervised Learning for Law and the CaseHOLD Dataset [[ICAIL 2021]](https://arxiv.org/abs/2104.08671) [[Code]](https://github.com/reglab/casehold)
+- Zoo-Tuning: Adaptive Transfer from A Zoo of Models [[ICML 2021]](http://proceedings.mlr.press/v139/shu21b/shu21b.pdf) [[Pytorch]](https://github.com/thuml/Zoo-Tuning)
+- LogME: Practical Assessment of Pre-trained Models for Transfer Learning [[ICML 2021]](http://proceedings.mlr.press/v139/you21b/you21b.pdf) [[Pytorch]](https://github.com/thuml/LogME)
+- LEEP: A New Measure to Evaluate Transferability of Learned Representations [[ICML 2020]](http://proceedings.mlr.press/v119/nguyen20b/nguyen20b.pdf)
+- Rethinking ImageNet Pre-training [[ICCV 2019]](https://openaccess.thecvf.com/content_ICCV_2019/papers/He_Rethinking_ImageNet_Pre-Training_ICCV_2019_paper.pdf) 
+- Characterizing and Avoiding Negative Transfer [[CVPR 2019]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Characterizing_and_Avoiding_Negative_Transfer_CVPR_2019_paper.pdf)
 - Catastrophic Forgetting Meets Negative Transfer [[NIPS 2019]](https://papers.nips.cc/paper/2019/file/c6bff625bdb0393992c9d4db0c6bbe45-Paper.pdf) [[Pytorch]](https://github.com/thuml/Batch-Spectral-Shrinkage)
 - Learning What and Where to Transfer [[ICML 2019]](http://proceedings.mlr.press/v97/jang19b/jang19b.pdf) [[Pytorch]](https://github.com/alinlab/L2T-ww)
+- Taskonomy: Disentangling Task Transfer Learning [[CVPR 2018 Best]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Zamir_Taskonomy_Disentangling_Task_CVPR_2018_paper.pdf) [[Code]](https://github.com/StanfordVL/taskonomy)
+- To Transfer or Not To Transfer [[NIPS 2005]](http://socrates.acadiau.ca/courses/comp/dsilver/ITWS05_Submitted_Papers/ITWS10-RosensteinM05_ITWS.pdf)
 
 ### Parameter Efficiency
 **Survey**
