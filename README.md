@@ -50,8 +50,8 @@ This repo is a collection of AWESOME things about transferablity in deep learnin
 - Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift [[ICML 2015]](http://proceedings.mlr.press/v37/ioffe15.pdf)
 
 **Library**
-- [[Transformers]](https://github.com/huggingface/transformers)
-- [[PyTorch Image Models]](https://github.com/rwightman/pytorch-image-models)
+- [Transformers](https://github.com/huggingface/transformers)
+- [PyTorch Image Models](https://github.com/rwightman/pytorch-image-models)
 
 ## Supervised Pre-Training
 
@@ -72,7 +72,7 @@ This repo is a collection of AWESOME things about transferablity in deep learnin
 - Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks [[ICML 2017]](https://proceedings.mlr.press/v70/finn17a/finn17a.pdf) [[Tensorflow]](https://github.com/cbfinn/maml)  [[Pytorch]](https://github.com/dragen1860/MAML-Pytorch)
 
 **Library**
-- [[learn2learn: A Library for {Meta-Learning} Research]](https://github.com/learnables/learn2learn)
+- [learn2learn: A Library for {Meta-Learning} Research](https://github.com/learnables/learn2learn)
 
 
 ### Causal Learning
