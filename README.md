@@ -64,7 +64,6 @@ This repo is a collection of AWESOME things about transferablity in deep learnin
 - Domain Adaptive Transfer Learning with Specialist Models [[16 Nov 2018]](https://arxiv.org/pdf/1811.07056.pdf)
 - Exploring the Limits of Weakly Supervised Pretraining [[ECCV 2018]](https://openaccess.thecvf.com/content_ECCV_2018/papers/Dhruv_Mahajan_Exploring_the_Limits_ECCV_2018_paper.pdf) [[Pytorch]](https://github.com/facebookresearch/WSL-Images)
 
-
 ### Meta-Learning
 
 **Survey**
@@ -115,8 +114,21 @@ This repo is a collection of AWESOME things about transferablity in deep learnin
 **Survey**
 
 **Paper**
+- Intrinsic Dimensionality Explains the Effectiveness of Language Model Fine-Tuning
+  [[ACL 2021]](https://aclanthology.org/2021.acl-long.568.pdf)
+- Bi-tuning of pre-trained representations [[12 Nov 2020]](https://arxiv.org/abs/2011.06182) [[Translearners]](https://github.com/thuml/Transfer-Learning-Library/blob/master/examples/task_adaptation/image_classification/bi_tuning.py)
+- Stochastic Normalization [[NIPS 2020]](https://proceedings.neurips.cc/paper/2020/file/bc573864331a9e42e4511de6f678aa83-Paper.pdf) [[Pytorch]](https://github.com/thuml/StochNorm)
+- Co-Tuning for Transfer Learning [[NIPS 2020]](https://papers.nips.cc/paper/2020/file/c8067ad1937f728f51288b3eb986afaa-Paper.pdf) [[Pytorch]](https://github.com/thuml/CoTuning)
+- Don’t Stop Pretraining: Adapt Language Models to Domains and Tasks [[ACL 2020]](https://aclanthology.org/2020.acl-main.740.pdf) [[Pytorch]](https://github.com/allenai/dont-stop-pretraining)
 - SMART: Robust and Efficient Fine-Tuning for Pre-trained Natural Language Models through Principled Regularized Optimization [[ACL 2020]](https://aclanthology.org/2020.acl-main.197.pdf) [[Pytorch]](https://github.com/namisan/mt-dnn)
+- Theoretically Principled Trade-off between Robustness and Accuracy [[ICML 2019]](http://proceedings.mlr.press/v97/zhang19p/zhang19p.pdf) [[Pytorch]](https://github.com/yaodongyu/TRADES)
+- DELTA: DEep Learning Transfer using Feature Map with Attention for Convolutional Networks [[ICLR 2019]](https://openreview.net/pdf?id=rkgbwsAcYm) [[Pytorch]](https://github.com/lixingjian/DELTA)
 - An Embarrassingly Simple Approach for Transfer Learning from Pretrained Language Models [[NAACL 2019]](https://aclanthology.org/N19-1213.pdf) [[Pytorch]](https://github.com/alexandra-chron/siatl)
+- SpotTune: Transfer Learning through Adaptive Fine-tuning [[CVPR 2019]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Guo_SpotTune_Transfer_Learning_Through_Adaptive_Fine-Tuning_CVPR_2019_paper.pdf) [[Pytorch]](https://github.com/gyhui14/spottune)
+- Universal Language Model Fine-tuning for Text Classification [[ACL 2018]](https://aclanthology.org/P18-1031.pdf)
+- Explicit Inductive Bias for Transfer Learning with Convolutional Networks [[ICML 2018]]
+- Learning without Forgetting [[PAMI 2018]](https://arxiv.org/pdf/1606.09282.pdf)
+- Overcoming catastrophic forgetting in neural networks [[PNAS 2017]](https://www.pnas.org/content/pnas/114/13/3521.full.pdf)
 
 ### Negative Transfer
 **Survey**
