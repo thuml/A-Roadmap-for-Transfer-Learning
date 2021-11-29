@@ -68,15 +68,15 @@ We do not aim to cover everything about transferablity, but aim to select the mo
 - Meta-Learning in Neural Networks: A Survey [[TPAMI 2021]](https://ieeexplore.ieee.org/abstract/document/9428530)
 
 **Paper**
-- Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks [[ICML 2017]](https://proceedings.mlr.press/v70/finn17a/finn17a.pdf) [[Tensorflow]](https://github.com/cbfinn/maml)  [[Pytorch]](https://github.com/dragen1860/MAML-Pytorch)  (**MAML**)
-- Meta-Learning with Memory-Augmented Neural Networks [[ICML 2016]](http://proceedings.mlr.press/v48/santoro16.html) (**MANN**)
-- Meta Networks [[ICML 2017]](http://proceedings.mlr.press/v70/munkhdalai17a.html)
+
+- Omni-Training for Data-Efficient Deep Learning [[arXiv 14 Oct 2021]](https://arxiv.org/abs/2110.07510) (**Omni-Training**)
+- Hierarchically Structured Meta-learning [[ICML 2019]](http://proceedings.mlr.press/v97/yao19b.html) (**HSML**)
 - Meta-Transfer Learning for Few-Shot Learning [[CVPR 2019]](https://openaccess.thecvf.com/content_CVPR_2019/html/Sun_Meta-Transfer_Learning_for_Few-Shot_Learning_CVPR_2019_paper.html)
 - Meta-Learning with Latent Embedding Optimization [[ICLR 2019]](https://openreview.net/pdf?id=BJgklhAcK7) (**LEO**)
-- Hierarchically Structured Meta-learning [[ICML 2019]](http://proceedings.mlr.press/v97/yao19b.html) (**HSML**)
 - A Closer Look at Few-shot Classification [[ICLR 2019]](https://openreview.net/pdf?id=HkxLXnAcFQ)
-- Omni-Training for Data-Efficient Deep Learning [[arXiv 14 Oct 2021]](https://arxiv.org/abs/2110.07510) (**Omni-Training**)
-
+- Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks [[ICML 2017]](https://proceedings.mlr.press/v70/finn17a/finn17a.pdf) [[Tensorflow]](https://github.com/cbfinn/maml)  [[Pytorch]](https://github.com/dragen1860/MAML-Pytorch)  (**MAML**)
+- Meta Networks [[ICML 2017]](http://proceedings.mlr.press/v70/munkhdalai17a.html)
+- Meta-Learning with Memory-Augmented Neural Networks [[ICML 2016]](http://proceedings.mlr.press/v48/santoro16.html) (**MANN**)
 
 
 ### Causal Learning
@@ -85,8 +85,8 @@ We do not aim to cover everything about transferablity, but aim to select the mo
 - Toward Causal Representation Learning [[Proceedings of the IEEE 2021]](https://ieeexplore.ieee.org/abstract/document/9363924)
 
 **Paper**
-- Invariant Risk Minimization [[Arixv 5 Jul 2019]](https://arxiv.org/abs/1907.02893) [[Pytorch]](https://github.com/facebookresearch/InvariantRiskMinimization) [[Translearners]](https://github.com/thuml/Transfer-Learning-Library/blob/master/examples/domain_generalization/image_classification/irm.py)  (**IRM**)
 - Recurrent Independent Mechanisms [[ICLR 2021]](https://openreview.net/pdf?id=mLcmdlEUxy-) (**RIM**)
+- Invariant Risk Minimization [[Arixv 5 Jul 2019]](https://arxiv.org/abs/1907.02893) [[Pytorch]](https://github.com/facebookresearch/InvariantRiskMinimization) [[Translearners]](https://github.com/thuml/Transfer-Learning-Library/blob/master/examples/domain_generalization/image_classification/irm.py)  (**IRM**)
 
 ## Unsupervised Pre-Training
 
