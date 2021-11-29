@@ -1,10 +1,13 @@
 # Awesome-Transferability-in-Deep-Learning
+## Introduction
 
 [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 This repo is a collection of AWESOME things about transferablity in deep learning, including papers, code, etc. Feel free to star and fork.
+We do not aim to cover everything about transferablity, but aim to select the most worth reading papers.
 
-# Contents
+![alt Overview](png/overview.pdf)
+
 
 - [Contents](#contents)
 - [Introduction](#introduction)
@@ -30,12 +33,7 @@ This repo is a collection of AWESOME things about transferablity in deep learnin
 - [Evaluation](#evaluation)
     - [Cross-Task Evaluation](#cross-task-evaluation)
     - [Cross-Domain Evaluation](#cross-domain-evaluation)
-
-
-[comment]: <> (Theory, Survey, Benchmarks, Library, Dataset, Lectures and Tutorials)
-
-## Introduction
-
+  
 ## Pre-Training Models
 
 **Resources**
