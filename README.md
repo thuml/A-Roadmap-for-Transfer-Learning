@@ -38,18 +38,18 @@ This repo is a collection of AWESOME things about transferablity in deep learnin
 
 ## Pre-Training Models
 
+**Resources**
+- [Transformers (Library)](https://github.com/huggingface/transformers)
+- [PyTorch Image Models (Library)](https://github.com/rwightman/pytorch-image-models)
+
 **Paper**
 - An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale [[ICLR 2021]](https://openreview.net/pdf?id=YicbFdNTTy) [[Tensorflow]](https://github.com/google-research/vision_transformer) (**ViT**)
-- Do Better ImageNet Models Transfer Better? [[CVPR 2019]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Kornblith_Do_Better_ImageNet_Models_Transfer_Better_CVPR_2019_paper.pdf) (**GroupNorm**)
-- Group Normalization [[ECCV 2018]](https://openaccess.thecvf.com/content_ECCV_2018/papers/Yuxin_Wu_Group_Normalization_ECCV_2018_paper.pdf)
+- Do Better ImageNet Models Transfer Better? [[CVPR 2019]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Kornblith_Do_Better_ImageNet_Models_Transfer_Better_CVPR_2019_paper.pdf)
+- Group Normalization [[ECCV 2018]](https://openaccess.thecvf.com/content_ECCV_2018/papers/Yuxin_Wu_Group_Normalization_ECCV_2018_paper.pdf) (**GroupNorm**)
 - Attention Is All You Need [[NIPS 2017]](https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf) (**Transformer**)
 - Layer Normalization [[Arixv 21 Jul 2016]](https://arxiv.org/abs/1607.06450) (**LayerNorm**)
 - Deep Residual Learning for Image Recognition [[CVPR 2016 Best]](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf) (**ResNet**)
 - Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift [[ICML 2015]](http://proceedings.mlr.press/v37/ioffe15.pdf) (**BatchNorm**)
-
-**Library**
-- [Transformers](https://github.com/huggingface/transformers)
-- [PyTorch Image Models](https://github.com/rwightman/pytorch-image-models)
 
 ## Supervised Pre-Training
 
@@ -64,13 +64,13 @@ This repo is a collection of AWESOME things about transferablity in deep learnin
 
 ### Meta-Learning
 
+**Resources**
+- [learn2learn: A Library for Meta-Learning Research](https://github.com/learnables/learn2learn)
+
 **Survey**
 
 **Paper**
 - Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks [[ICML 2017]](https://proceedings.mlr.press/v70/finn17a/finn17a.pdf) [[Tensorflow]](https://github.com/cbfinn/maml)  [[Pytorch]](https://github.com/dragen1860/MAML-Pytorch)  (**MAML**)
-
-**Library**
-- [learn2learn: A Library for Meta-Learning Research](https://github.com/learnables/learn2learn)
 
 
 ### Causal Learning
@@ -80,7 +80,6 @@ This repo is a collection of AWESOME things about transferablity in deep learnin
 - Invariant Risk Minimization [[Arixv 5 Jul 2019]](https://arxiv.org/abs/1907.02893) [[Pytorch]](https://github.com/facebookresearch/InvariantRiskMinimization)  (**IRM**)
 
 ## Unsupervised Pre-Training
-**Survey**
 
 ### Generative Learning
 **Survey**
@@ -106,6 +105,9 @@ This repo is a collection of AWESOME things about transferablity in deep learnin
 - Extracting and Composing Robust Features with Denoising Autoencoders [[ICML 2008]](https://www.cs.toronto.edu/~larocheh/publications/icml-2008-denoising-autoencoders.pdf)
 
 ### Contrastive Learning
+**Resources**
+- [Lightly: A python library for self-supervised learning on images](https://github.com/lightly-ai/lightly)
+
 **Survey**
 
 **Paper**
@@ -114,20 +116,16 @@ This repo is a collection of AWESOME things about transferablity in deep learnin
 - Exploring Simple Siamese Representation Learning [[CVPR 2021]](https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_Exploring_Simple_Siamese_Representation_Learning_CVPR_2021_paper.pdf) [[Pytorch]](https://github.com/facebookresearch/simsiam) (**SimSiam**)
 - Bootstrap Your Own Latent A New Approach to Self-Supervised  [[NIPS 2020]](https://papers.nips.cc/paper/2020/file/f3ada80d5c4ee70142b17b8192b2958e-Paper.pdf) (**BYOL**)
 - Contrastive Multiview Coding [[ECCV 2020]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123560749.pdf) [[Pytorch]](https://github.com/HobbitLong/CMC/) (**CMC**)
-- A Simple Framework for Contrastive Learning of Visual Representations [[ICML 2020]](http://proceedings.mlr.press/v119/chen20j/chen20j.pdf) [[Tensorflow]](https://github.com/google-research/simclr) [[Pytorch]](https://github.com/sthalles/SimCLR) ((**SimCLR**))
+- A Simple Framework for Contrastive Learning of Visual Representations [[ICML 2020]](http://proceedings.mlr.press/v119/chen20j/chen20j.pdf) [[Tensorflow]](https://github.com/google-research/simclr) [[Pytorch]](https://github.com/sthalles/SimCLR) (**SimCLR**)
 - Momentum Contrast for Unsupervised Visual Representation Learning [[CVPR 2020]](https://openaccess.thecvf.com/content_CVPR_2020/papers/He_Momentum_Contrast_for_Unsupervised_Visual_Representation_Learning_CVPR_2020_paper.pdf) [[Pytorch]](https://github.com/facebookresearch/moco) (**MoCo**)
 - Deep Graph Infomax [[ICLR 2019]](https://openreview.net/pdf?id=rklz9iAcKQ) [[Pytorch]](https://github.com/PetarV-/DGI) (**DGI**)
 - Learning deep representations by mutual information estimation and maximization [[ICLR 2019]](https://openreview.net/pdf?id=Bklr3j0cKX) [[Code]](https://github.com/rdevon/DIM) (**Deep InfoMax**)
 - Representation Learning with Contrastive Predictive Coding [[Arixv 10 Jul 2018]](https://arxiv.org/abs/1807.03748) [[Keras]](https://github.com/davidtellez/contrastive-predictive-coding) (**CMC**)
 - Unsupervised Feature Learning via Non-Parametric Instance Discrimination [[CVPR 2018]](https://openaccess.thecvf.com/content_cvpr_2018/CameraReady/0801.pdf) [[Pytorch]](https://github.com/zhirongw/lemniscate.pytorch) (**InstDisc**)
 
-**Library**
-
-- [Lightly: A python library for self-supervised learning on images](https://github.com/lightly-ai/lightly)
 
 ## Task Adaptation
-
-**Library**
+**Resources**
 - [Translearners: Transfer Learning Library for Domain Adaptation, Task Adaptation, and Domain Generalization](https://github.com/thuml/Transfer-Learning-Library)
 
 **Paper**
@@ -138,8 +136,6 @@ This repo is a collection of AWESOME things about transferablity in deep learnin
 - OverFeat: Integrated Recognition, Localization and Detection using Convolutional Networks [[Arixv 21 Dec 2013]](https://arxiv.org/abs/1312.6229)
 
 ### Catastrophic Forgetting
-**Survey**
-
 **Paper**
 - Bi-tuning of pre-trained representations [[Arixv 12 Nov 2020]](https://arxiv.org/abs/2011.06182) [[Translearners]](https://github.com/thuml/Transfer-Learning-Library/blob/master/examples/task_adaptation/image_classification/bi_tuning.py) (**Bi-Tuning**)
 - Stochastic Normalization [[NIPS 2020]](https://proceedings.neurips.cc/paper/2020/file/bc573864331a9e42e4511de6f678aa83-Paper.pdf) [[Pytorch]](https://github.com/thuml/StochNorm) (**StochNorm**)
@@ -156,7 +152,6 @@ This repo is a collection of AWESOME things about transferablity in deep learnin
 - Overcoming catastrophic forgetting in neural networks [[PNAS 2017]](https://www.pnas.org/content/pnas/114/13/3521.full.pdf) (**EWC**)
 
 ### Negative Transfer
-**Survey**
 
 **Paper**
 - When Does Pretraining Help? Assessing Self-Supervised Learning for Law and the CaseHOLD Dataset [[ICAIL 2021]](https://arxiv.org/abs/2104.08671) [[Code]](https://github.com/reglab/casehold)
@@ -171,8 +166,8 @@ This repo is a collection of AWESOME things about transferablity in deep learnin
 - To Transfer or Not To Transfer [[NIPS 2005]](http://socrates.acadiau.ca/courses/comp/dsilver/ITWS05_Submitted_Papers/ITWS10-RosensteinM05_ITWS.pdf)
 
 ### Parameter Efficiency
-**Survey**
-
+**Resources**
+- [adapter-transformers (Library)](https://github.com/Adapter-Hub/adapter-transformers)
 
 **Paper**
 - Parameter-Efficient Transfer Learning with Diff Pruning [[ACL 2021]](https://aclanthology.org/2021.acl-long.378.pdf) [[Pytorch]](https://github.com/dguo98/DiffPruning) (**Diff Pruning**)
@@ -183,7 +178,13 @@ This repo is a collection of AWESOME things about transferablity in deep learnin
 - Learning multiple visual domains with residual adapters [[NIPS 2017]](https://proceedings.neurips.cc/paper/2017/file/e7b24b112a44fdd9ee93bdf998c6ca0e-Paper.pdf) (**Residual Adapter**)
 
 ### Data Efficiency
+**Resources**
+- [Pretrain, Prompt, Predict (Paper List)](http://pretrain.nlpedia.ai/)
+- [Few-Shot Papers (Paper List)](https://github.com/tata1661/FSL-Mate/tree/master/FewShotPapers)
+- [few-shot (Library)](https://github.com/oscarknagg/few-shot)
+
 **Survey**
+- Generalizing from a Few Examples: A Survey on Few-Shot Learning [[10 Apr 2019]](https://arxiv.org/abs/1904.05046)
 - Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing [[Arixv 28 Jul 2021]](https://arxiv.org/abs/2107.13586)
 
 **Paper**
@@ -195,15 +196,14 @@ This repo is a collection of AWESOME things about transferablity in deep learnin
 - Prototypical Networks for Few-shot Learning [[NIPS 2017]](https://papers.nips.cc/paper/2017/file/cb8da6767461f2812ae4290eac7cbc42-Paper.pdf) [[Pytorch]](https://github.com/jakesnell/prototypical-networks) (**ProtoNet**)
 - Matching Networks for One Shot Learning [[NIPS 2016]](https://papers.nips.cc/paper/2016/hash/90e1357833654983612fb05e3ec9148c-Abstract.html) [[Tensorflow]](https://github.com/AntreasAntoniou/MatchingNetworks) (**Matching Net**)
 
-**Library**
-- [few-shot](https://github.com/oscarknagg/few-shot)
-
 ## Domain Adaptation
-
-**Library**
-- [Translearners](https://github.com/thuml/Transfer-Learning-Library)
+**Resources**
+- [Translearners: Transfer Learning Library for Domain Adaptation, Task Adaptation, and Domain Generalization](https://github.com/thuml/Transfer-Learning-Library)
+- [awesome-domain-adaptation (Paper list)](https://github.com/zhaoxin94/awesome-domain-adaptation)
 
 **Survey**
+- A Review of Single-Source Deep Unsupervised Visual Domain Adaptation [[1 Sep 2020]](https://arxiv.org/abs/2009.00155)
+- Transfer Adaptation Learning: A Decade Survey [[12 Mar 2019]](https://arxiv.org/abs/1903.04687)
 - A Survey on Transfer Learning [[KDE 2010]](https://www.cse.ust.hk/~qyang/Docs/2009/tkde_transfer_learning.pdf)
 
 ### Theory
@@ -224,7 +224,7 @@ This repo is a collection of AWESOME things about transferablity in deep learnin
 - Contrastive Adaptation Network for Unsupervised Domain Adaptation [[CVPR 2019]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Kang_Contrastive_Adaptation_Network_for_Unsupervised_Domain_Adaptation_CVPR_2019_paper.pdf) [[Pytorch]](https://github.com/kgl-prml/Contrastive-Adaptation-Network-for-Unsupervised-Domain-Adaptation) (**CAN**)
 - Adaptive Batch Normalization for practical domain adaptation [[Pattern Recognition 2018]](https://www.sciencedirect.com/science/article/pii/S003132031830092X) (**AdaBN**)
 - DeepJDOT: Deep Joint distribution optimal transport for unsupervised domain adaptation [[ECCV 2018]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Bharath_Bhushan_Damodaran_DeepJDOT_Deep_Joint_ECCV_2018_paper.pdf) [[Keras]](https://github.com/bbdamodaran/deepJDOT) (**DeepJDOT**)
-- Joint Distribution Optimal Transportation for Domain Adaptation [[NIPS 2017]](http://papers.nips.cc/paper/6963-joint-distribution-optimal-transportation-for-domain-adaptation.pdf) [[python]] (https://github.com/rflamary/JDOT) [[Python Optimal Transport Library]](https://github.com/rflamary/POT) (**JDOT**)
+- Joint Distribution Optimal Transportation for Domain Adaptation [[NIPS 2017]](http://papers.nips.cc/paper/6963-joint-distribution-optimal-transportation-for-domain-adaptation.pdf) [[python]](https://github.com/rflamary/JDOT) [[Python Optimal Transport Library]](https://github.com/rflamary/POT) (**JDOT**)
 - Central Moment Discrepancy for Unsupervised Domain Adaptation [[ICLR 2017]](https://openreview.net/pdf?id=SkB-_mcel), [[code]](https://github.com/wzell/cmd) (**CMD**)
 - Deep Transfer Learning with Joint Adaptation Networks [[ICML 2017]](http://ise.thss.tsinghua.edu.cn/~mlong/doc/joint-adaptation-networks-icml17.pdf) [[Translearners]](https://github.com/thuml/Transfer-Learning-Library/blob/master/examples/domain_adaptation/image_classification/jan.py) (**JAN**)
 - Deep CORAL: Correlation Alignment for Deep Domain Adaptation [[ECCV 2016]](https://arxiv.org/abs/1607.01719) (**Deep CORAL**)
@@ -289,18 +289,7 @@ This repo is a collection of AWESOME things about transferablity in deep learnin
 - Self-Ensembling for Visual Domain Adaptation [[ICLR 2018]](https://openreview.net/forum?id=rkpoTaxA-) (**Self-Ensemble**)
 - Asymmetric Tri-training for Unsupervised Domain Adaptation [[ICML 2017]](http://proceedings.mlr.press/v70/saito17a.html) [[TensorFlow]](https://github.com/ksaito-ut/atda) (**ATT**)
 
-## Evaluation
 
-### Cross-Task Evaluation
-
-**Dataset**
-
-
-### Cross-Domain Evaluation
-
-**Dataset**
-
-- XNLI: Evaluating Cross-lingual Sentence Representations [[EMNLP 2018]](https://aclanthology.org/D18-1269.pdf) [[Download]](https://github.com/facebookresearch/XNLI)
 
 
 
