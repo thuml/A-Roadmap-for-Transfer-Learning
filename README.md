@@ -82,7 +82,7 @@ We do not aim to cover everything about transferablity, but aim to select the mo
 ### Causal Learning
 **Survey**
 
-- Toward Causal Representation Learning [[Proceedings of the IEEE 2021]](https://openreview.net/pdf?id=mLcmdlEUxy-)
+- Toward Causal Representation Learning [[Proceedings of the IEEE 2021]](https://ieeexplore.ieee.org/abstract/document/9363924)
 
 **Paper**
 - Invariant Risk Minimization [[arXiv 5 Jul 2019]](https://arxiv.org/abs/1907.02893) [[Pytorch]](https://github.com/facebookresearch/InvariantRiskMinimization)  (**IRM**)
@@ -92,6 +92,8 @@ We do not aim to cover everything about transferablity, but aim to select the mo
 
 ### Generative Learning
 **Survey**
+
+- Self-supervised Learning: Generative or Contrastive [[TKDE 2021]](https://ieeexplore.ieee.org/abstract/document/9462394)
 
 **Paper**
 - Masked Autoencoders Are Scalable Vision Learners [[arXiv 11 Nov 2021]](https://arxiv.org/abs/2111.06377) (**MAE**)
