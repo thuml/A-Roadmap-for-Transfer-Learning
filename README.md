@@ -45,7 +45,7 @@ This repo is a collection of AWESOME things about transferablity in deep learnin
 - Do Better ImageNet Models Transfer Better? [[CVPR 2019]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Kornblith_Do_Better_ImageNet_Models_Transfer_Better_CVPR_2019_paper.pdf)
 - Group Normalization [[ECCV 2018]](https://openaccess.thecvf.com/content_ECCV_2018/papers/Yuxin_Wu_Group_Normalization_ECCV_2018_paper.pdf)
 - Attention Is All You Need [[NIPS 2017]](https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf)
-- Layer Normalization [[21 Jul 2016]](https://arxiv.org/abs/1607.06450)
+- Layer Normalization [[Arixv 21 Jul 2016]](https://arxiv.org/abs/1607.06450)
 - Deep Residual Learning for Image Recognition [[CVPR 2016 Best]](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
 - Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift [[ICML 2015]](http://proceedings.mlr.press/v37/ioffe15.pdf)
 
@@ -56,12 +56,12 @@ This repo is a collection of AWESOME things about transferablity in deep learnin
 ## Supervised Pre-Training
 
 **Paper**
-- Exploring the Limits of Large Scale Pre-training [[5 Oct 2021]](https://arxiv.org/abs/2110.02095)
+- Exploring the Limits of Large Scale Pre-training [[Arixv 5 Oct 2021]](https://arxiv.org/abs/2110.02095)
 - Do Adversarially Robust ImageNet Models Transfer Better? [[NIPS 2020]](https://proceedings.neurips.cc/paper/2020/file/24357dd085d2c4b1a88a7e0692e60294-Paper.pdf)
 - Big Transfer (BiT): General Visual Representation Learning [[ECCV 2020]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123500477.pdf) [[Code]](https://github.com/google-research/big_transfer)
-- Billion-scale Semi-supervised Learning for Image Classification [[2 May 2019]](https://arxiv.org/abs/1905.00546) [[Pytorch]](https://github.com/leaderj1001/Billion-scale-semi-supervised-learning)
+- Billion-scale Semi-supervised Learning for Image Classification [[Arixv 2 May 2019]](https://arxiv.org/abs/1905.00546) [[Pytorch]](https://github.com/leaderj1001/Billion-scale-semi-supervised-learning)
 - ImageNet-trained CNNs are biased towards texture; increasing shape bias improves accuracy and robustness [[ICLR 2019]](https://openreview.net/pdf?id=Bygh9j09KX) [[Code]](https://github.com/rgeirhos/texture-vs-shape)
-- Domain Adaptive Transfer Learning with Specialist Models [[16 Nov 2018]](https://arxiv.org/pdf/1811.07056.pdf)
+- Domain Adaptive Transfer Learning with Specialist Models [[Arixv 16 Nov 2018]](https://arxiv.org/pdf/1811.07056.pdf)
 - Exploring the Limits of Weakly Supervised Pretraining [[ECCV 2018]](https://openaccess.thecvf.com/content_ECCV_2018/papers/Dhruv_Mahajan_Exploring_the_Limits_ECCV_2018_paper.pdf) [[Pytorch]](https://github.com/facebookresearch/WSL-Images)
 
 ### Meta-Learning
@@ -72,14 +72,14 @@ This repo is a collection of AWESOME things about transferablity in deep learnin
 - Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks [[ICML 2017]](https://proceedings.mlr.press/v70/finn17a/finn17a.pdf) [[Tensorflow]](https://github.com/cbfinn/maml)  [[Pytorch]](https://github.com/dragen1860/MAML-Pytorch)
 
 **Library**
-- [learn2learn: A Library for {Meta-Learning} Research](https://github.com/learnables/learn2learn)
+- [learn2learn: A Library for Meta-Learning Research](https://github.com/learnables/learn2learn)
 
 
 ### Causal Learning
 **Survey**
 
 **Paper**
-- Invariant Risk Minimization[[5 Jul 2019]] (https://arxiv.org/abs/1907.02893) [[Pytorch]](https://github.com/facebookresearch/InvariantRiskMinimization)
+- Invariant Risk Minimization [[Arixv 5 Jul 2019]](https://arxiv.org/abs/1907.02893) [[Pytorch]](https://github.com/facebookresearch/InvariantRiskMinimization)
 
 ## Unsupervised Pre-Training
 **Survey**
@@ -90,18 +90,18 @@ This repo is a collection of AWESOME things about transferablity in deep learnin
 **Survey**
 
 **Paper**
-- Masked Autoencoders Are Scalable Vision Learners [[11 Nov 2021]](https://arxiv.org/abs/2111.06377) (**MAE**)
+- Masked Autoencoders Are Scalable Vision Learners [[Arixv 11 Nov 2021]](https://arxiv.org/abs/2111.06377) (**MAE**)
 - Strategies for Pre-training Graph Neural Networks [[ICLR 2020]](https://openreview.net/pdf?id=HJlWWJSFDH) [[Pytorch]](https://github.com/snap-stanford/pretrain-gnns) 
 - ALBERT: A Lite BERT for Self-supervised Learning of Language Representations [[ICLR 2020]](https://openreview.net/pdf?id=H1eA7AEtvS) [[Tensorflow]](https://github.com/google-research/ALBERT) (**ALBERT**)
 - Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer [[JMLR 2020]](https://jmlr.org/papers/volume21/20-074/20-074.pdf) [[Tensorflow]](https://github.com/google-research/text-to-text-transfer-transformer) (**T5**)
 - BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension [[ACL 2020]](https://aclanthology.org/2020.acl-main.703.pdf) [[Pytorhc]](https://github.com/pytorch/fairseq) (**BART**)
-- Language Models are Few-Shot Learners [[NIPS 2020]](https://papers.nips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf)
+- Language Models are Few-Shot Learners [[NIPS 2020]](https://papers.nips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf) (**GPT-3**)
 - SpanBERT: Improving Pre-training by Representing and Predicting Spans [[TACL 2020]](https://arxiv.org/abs/1907.10529) (**SpanBERT**)
 - XLNet: Generalized Autoregressive Pretraining for Language Understanding [[NIPS 2019]](https://papers.nips.cc/paper/2019/file/dc6a7e655d7e5840e66733e9ee67cc69-Paper.pdf) [[Tensorflow]](https://github.com/zihangdai/xlnet) (**XLM**)
 - Cross-lingual Language Model Pretraining [[NIPS 2019]](https://proceedings.neurips.cc/paper/2019/file/c04c19c2c2474dbf5f7ac4372c5b9af1-Paper.pdf) [[Pytorch]](https://github.com/facebookresearch/XLM) (**XLM**)
 - Language Models are Unsupervised Multitask Learners [[2019]](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf) [[code](https://github.com/openai/gpt-2)] (**GPT-2**)
-- RoBERTa: A Robustly Optimized BERT Pretraining Approach [[26 Jul 2019]](https://arxiv.org/abs/1907.11692) [[Pytorch]](https://github.com/pytorch/fairseq) (**RoBERTa**)
-- ERNIE: Enhanced Representation through Knowledge Integration [[19 Apr 2019]](https://arxiv.org/pdf/1904.09223.pdf) [[code]](https://github.com/PaddlePaddle/ERNIE/tree/develop/ERNIE) (**ERNIE (Baidu)**) 
+- RoBERTa: A Robustly Optimized BERT Pretraining Approach [[Arixv 26 Jul 2019]](https://arxiv.org/abs/1907.11692) [[Pytorch]](https://github.com/pytorch/fairseq) (**RoBERTa**)
+- ERNIE: Enhanced Representation through Knowledge Integration [[Arixv 19 Apr 2019]](https://arxiv.org/pdf/1904.09223.pdf) [[code]](https://github.com/PaddlePaddle/ERNIE/tree/develop/ERNIE) (**ERNIE (Baidu)**) 
 - BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding [[NAACL 2019]](https://aclanthology.org/N19-1423.pdf) [[Tensorflow]](https://github.com/google-research/bert) (**BERT**)
 - Improving Language Understanding by Generative Pre-Training [[OpenAI 2018]](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf) (**GPT**)
 - Universal Language Model Fine-tuning for Text Classification.[[ACL 2018]](https://www.aclweb.org/anthology/P18-1031) [[project](http://nlp.fast.ai/category/classification.html)] (**ULMFiT**)
@@ -113,10 +113,21 @@ This repo is a collection of AWESOME things about transferablity in deep learnin
 **Survey**
 
 **Paper**
+- Learning Transferable Visual Models From Natural Language Supervision [[Arixv 26 Feb 2021]](https://arxiv.org/pdf/2103.00020v1.pdf)  [[Pytorch]](https://github.com/openai/CLIP)
 - An Empirical Study of Training Self-Supervised Vision Transformers [[ICCV 2021 Oral]](https://arxiv.org/pdf/2104.02057.pdf) [[Pytorch]](https://github.com/facebookresearch/moco-v3)
 - Exploring Simple Siamese Representation Learning [[CVPR 2021]](https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_Exploring_Simple_Siamese_Representation_Learning_CVPR_2021_paper.pdf) [[Pytorch]](https://github.com/facebookresearch/simsiam)
+- Bootstrap Your Own Latent A New Approach to Self-Supervised  [[NIPS 2020]](https://papers.nips.cc/paper/2020/file/f3ada80d5c4ee70142b17b8192b2958e-Paper.pdf)
+- Contrastive Multiview Coding [[ECCV 2020]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123560749.pdf) [[Pytorch]](https://github.com/HobbitLong/CMC/)
 - A Simple Framework for Contrastive Learning of Visual Representations [[ICML 2020]](http://proceedings.mlr.press/v119/chen20j/chen20j.pdf) [[Tensorflow]](https://github.com/google-research/simclr) [[Pytorch]](https://github.com/sthalles/SimCLR)
+- Momentum Contrast for Unsupervised Visual Representation Learning [[CVPR 2020]](https://openaccess.thecvf.com/content_CVPR_2020/papers/He_Momentum_Contrast_for_Unsupervised_Visual_Representation_Learning_CVPR_2020_paper.pdf) [[Pytorch]](https://github.com/facebookresearch/moco)
+- Deep Graph Infomax [[ICLR 2019]](https://openreview.net/pdf?id=rklz9iAcKQ) [[Pytorch]](https://github.com/PetarV-/DGI)
+- Learning deep representations by mutual information estimation and maximization [[ICLR 2019]](https://openreview.net/pdf?id=Bklr3j0cKX) [[Code]](https://github.com/rdevon/DIM)
+- Representation Learning with Contrastive Predictive Coding [[Arixv 10 Jul 2018]](https://arxiv.org/abs/1807.03748) [[Keras]](https://github.com/davidtellez/contrastive-predictive-coding)
+- Unsupervised Feature Learning via Non-Parametric Instance Discrimination [[CVPR 2018]](https://openaccess.thecvf.com/content_cvpr_2018/CameraReady/0801.pdf) [[Pytorch]](https://github.com/zhirongw/lemniscate.pytorch)
 
+**Library**
+
+- [Lightly](https://github.com/lightly-ai/lightly)
 
 ## Task Adaptation
 
@@ -125,13 +136,13 @@ This repo is a collection of AWESOME things about transferablity in deep learnin
   [[ACL 2021]](https://aclanthology.org/2021.acl-long.568.pdf)
 - How transferable are features in deep neural networks? [[NIPS 2014]](https://proceedings.neurips.cc/paper/2014/file/375c71349b295fbe2dcdca9206f20a06-Paper.pdf)
 - DeCAF: A Deep Convolutional Activation Feature for Generic Visual Recognition [[ICML 2014]](http://proceedings.mlr.press/v32/donahue14.pdf)
-- OverFeat: Integrated Recognition, Localization and Detection using Convolutional Networks [[21 Dec 2013]](https://arxiv.org/abs/1312.6229)
+- OverFeat: Integrated Recognition, Localization and Detection using Convolutional Networks [[Arixv 21 Dec 2013]](https://arxiv.org/abs/1312.6229)
 
 ### Catastrophic Forgetting
 **Survey**
 
 **Paper**
-- Bi-tuning of pre-trained representations [[12 Nov 2020]](https://arxiv.org/abs/2011.06182) [[Translearners]](https://github.com/thuml/Transfer-Learning-Library/blob/master/examples/task_adaptation/image_classification/bi_tuning.py)
+- Bi-tuning of pre-trained representations [[Arixv 12 Nov 2020]](https://arxiv.org/abs/2011.06182) [[Translearners]](https://github.com/thuml/Transfer-Learning-Library/blob/master/examples/task_adaptation/image_classification/bi_tuning.py)
 - Stochastic Normalization [[NIPS 2020]](https://proceedings.neurips.cc/paper/2020/file/bc573864331a9e42e4511de6f678aa83-Paper.pdf) [[Pytorch]](https://github.com/thuml/StochNorm)
 - Co-Tuning for Transfer Learning [[NIPS 2020]](https://papers.nips.cc/paper/2020/file/c8067ad1937f728f51288b3eb986afaa-Paper.pdf) [[Pytorch]](https://github.com/thuml/CoTuning)
 - Don’t Stop Pretraining: Adapt Language Models to Domains and Tasks [[ACL 2020]](https://aclanthology.org/2020.acl-main.740.pdf) [[Pytorch]](https://github.com/allenai/dont-stop-pretraining)
@@ -168,16 +179,16 @@ This repo is a collection of AWESOME things about transferablity in deep learnin
 - Parameter-Efficient Transfer Learning with Diff Pruning [[ACL 2021]](https://aclanthology.org/2021.acl-long.378.pdf) [[Pytorch]](https://github.com/dguo98/DiffPruning)
 - BERT and PALs: Projected Attention Layers for Efficient Adaptation in Multi-Task Learning [[ICML 2019]](http://proceedings.mlr.press/v97/stickland19a/stickland19a.pdf) [[Pytorch]](https://github.com/AsaCooperStickland/Bert-n-Pals)
 - Parameter-Efficient Transfer Learning for NLP [[ICML 2019]](http://proceedings.mlr.press/v97/houlsby19a/houlsby19a.pdf) [[Tensorflow]](https://github.com/google-research/adapter-bert)
-- Side-Tuning: A Baseline for Network Adaptation via Additive Side Networks [[31 Dec 2019]](https://arxiv.org/abs/1912.13503) [[Pytorch]](https://github.com/jozhang97/side-tuning)
+- Side-Tuning: A Baseline for Network Adaptation via Additive Side Networks [[Arixv 31 Dec 2019]](https://arxiv.org/abs/1912.13503) [[Pytorch]](https://github.com/jozhang97/side-tuning)
 - Piggyback: Adapting a Single Network to Multiple Tasks by Learning to Mask Weights [[ECCV 2018]](https://openaccess.thecvf.com/content_ECCV_2018/papers/Arun_Mallya_Piggyback_Adapting_a_ECCV_2018_paper.pdf) [[Pytorch]](https://github.com/arunmallya/piggyback)
 - Learning multiple visual domains with residual adapters [[NIPS 2017]](https://proceedings.neurips.cc/paper/2017/file/e7b24b112a44fdd9ee93bdf998c6ca0e-Paper.pdf)
 
 ### Data Efficiency
 **Survey**
-- Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing [[28 Jul 2021]](https://arxiv.org/abs/2107.13586)
+- Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing [[Arixv 28 Jul 2021]](https://arxiv.org/abs/2107.13586)
 
 **Paper**
-- Finetuned Language Models Are Zero-Shot Learners [[3 Sep 2021]](https://arxiv.org/pdf/2109.01652v3.pdf) [[Tensorflow]](https://github.com/google-research/FLAN)
+- Finetuned Language Models Are Zero-Shot Learners [[Arixv 3 Sep 2021]](https://arxiv.org/pdf/2109.01652v3.pdf) [[Tensorflow]](https://github.com/google-research/FLAN)
 - Prefix-Tuning: Optimizing Continuous Prompts for Generation [[ACL 2021]](https://aclanthology.org/2021.acl-long.353.pdf) [[Pytorch]](https://github.com/XiangLi1999/PrefixTuning)
 - Exploiting Cloze Questions for Few Shot Text Classification and Natural Language Inference [[EACL 2020]](https://aclanthology.org/2021.eacl-main.20.pdf) [[Pytorch]](https://github.com/timoschick/pet)
 - Language Models are Few-Shot Learners [[NIPS 2020]](https://papers.nips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf)
@@ -231,12 +242,12 @@ This repo is a collection of AWESOME things about transferablity in deep learnin
 - Unsupervised Domain Adaptation by Backpropagation [[ICML 2015]](http://proceedings.mlr.press/v37/ganin15.pdf) [[Caffe(Official)]](https://github.com/ddtm/caffe/tree/grl) [[Tensorflow]](https://github.com/shucunt/domain_adaptation) [[Pytorch]](https://github.com/fungtion/DANN)
 
 **Application**
-- Decoupled Adaptation for Cross-Domain Object Detection [[6 Oct 2021]](https://arxiv.org/abs/2110.02578)
+- Decoupled Adaptation for Cross-Domain Object Detection [[Arixv 6 Oct 2021]](https://arxiv.org/abs/2110.02578)
 - ADVENT: Adversarial Entropy Minimization for Domain Adaptation in Semantic Segmentation [[CVPR 2019 Oral]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Vu_ADVENT_Adversarial_Entropy_Minimization_for_Domain_Adaptation_in_Semantic_Segmentation_CVPR_2019_paper.pdf) [[Pytorch]](https://github.com/valeoai/ADVENT)
 - Strong-Weak Distribution Alignment for Adaptive Object Detection [[CVPR 2019]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Saito_Strong-Weak_Distribution_Alignment_for_Adaptive_Object_Detection_CVPR_2019_paper.pdf) [[Pytorch]](https://github.com/VisionLearningGroup/DA_Detection)
 - Domain Adaptive Faster R-CNN for Object Detection in the Wild [[CVPR 2018]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Chen_Domain_Adaptive_Faster_CVPR_2018_paper.pdf) [[Caffe2]](https://github.com/krumo/Detectron-DA-Faster-RCNN) [[Caffe]](https://github.com/yuhuayc/da-faster-rcnn) [[Pytorch(under developing)]]()
 - Learning to Adapt Structured Output Space for Semantic Segmentation [[CVPR 2018]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Tsai_Learning_to_Adapt_CVPR_2018_paper.pdf) [[Pytorch]](https://github.com/wasidennis/AdaptSegNet)
-- FCNs in the Wild: Pixel-level Adversarial and Constraint-based Adaptation [[8 Dec 2016]](https://arxiv.org/abs/1612.02649)
+- FCNs in the Wild: Pixel-level Adversarial and Constraint-based Adaptation [[Arixv 8 Dec 2016]](https://arxiv.org/abs/1612.02649)
 
 
 ### Hypothesis Adversarial Learning
