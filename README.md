@@ -45,7 +45,7 @@ This repo is a collection of AWESOME things about transferablity in deep learnin
 - Do Better ImageNet Models Transfer Better? [[CVPR 2019]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Kornblith_Do_Better_ImageNet_Models_Transfer_Better_CVPR_2019_paper.pdf)
 - Group Normalization [[ECCV 2018]](https://openaccess.thecvf.com/content_ECCV_2018/papers/Yuxin_Wu_Group_Normalization_ECCV_2018_paper.pdf)
 - Attention Is All You Need [[NIPS 2017]](https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf)
-- Layer Normalization [[21 Jul 2016]] (https://arxiv.org/abs/1607.06450)
+- Layer Normalization [[21 Jul 2016]](https://arxiv.org/abs/1607.06450)
 - Deep Residual Learning for Image Recognition [[CVPR 2016 Best]](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
 - Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift [[ICML 2015]](http://proceedings.mlr.press/v37/ioffe15.pdf)
 
@@ -90,9 +90,24 @@ This repo is a collection of AWESOME things about transferablity in deep learnin
 **Survey**
 
 **Paper**
-- Language Models are Few-Shot Learners [[NIPS 2020]](https://papers.nips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf) 
-- BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding [[NAACL 2019]](https://aclanthology.org/N19-1423.pdf) [[Tensorflow]](https://github.com/google-research/bert) 
-
+- Masked Autoencoders Are Scalable Vision Learners [[11 Nov 2021]](https://arxiv.org/abs/2111.06377) (**MAE**)
+- Strategies for Pre-training Graph Neural Networks [[ICLR 2020]](https://openreview.net/pdf?id=HJlWWJSFDH) [[Pytorch]](https://github.com/snap-stanford/pretrain-gnns) 
+- ALBERT: A Lite BERT for Self-supervised Learning of Language Representations [[ICLR 2020]](https://openreview.net/pdf?id=H1eA7AEtvS) [[Tensorflow]](https://github.com/google-research/ALBERT) (**ALBERT**)
+- Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer [[JMLR 2020]](https://jmlr.org/papers/volume21/20-074/20-074.pdf) [[Tensorflow]](https://github.com/google-research/text-to-text-transfer-transformer) (**T5**)
+- BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension [[ACL 2020]](https://aclanthology.org/2020.acl-main.703.pdf) [[Pytorhc]](https://github.com/pytorch/fairseq) (**BART**)
+- Language Models are Few-Shot Learners [[NIPS 2020]](https://papers.nips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf)
+- SpanBERT: Improving Pre-training by Representing and Predicting Spans [[TACL 2020]](https://arxiv.org/abs/1907.10529) (**SpanBERT**)
+- XLNet: Generalized Autoregressive Pretraining for Language Understanding [[NIPS 2019]](https://papers.nips.cc/paper/2019/file/dc6a7e655d7e5840e66733e9ee67cc69-Paper.pdf) [[Tensorflow]](https://github.com/zihangdai/xlnet) (**XLM**)
+- Cross-lingual Language Model Pretraining [[NIPS 2019]](https://proceedings.neurips.cc/paper/2019/file/c04c19c2c2474dbf5f7ac4372c5b9af1-Paper.pdf) [[Pytorch]](https://github.com/facebookresearch/XLM) (**XLM**)
+- Language Models are Unsupervised Multitask Learners [[2019]](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf) [[code](https://github.com/openai/gpt-2)] (**GPT-2**)
+- RoBERTa: A Robustly Optimized BERT Pretraining Approach [[26 Jul 2019]](https://arxiv.org/abs/1907.11692) [[Pytorch]](https://github.com/pytorch/fairseq) (**RoBERTa**)
+- ERNIE: Enhanced Representation through Knowledge Integration [[19 Apr 2019]](https://arxiv.org/pdf/1904.09223.pdf) [[code]](https://github.com/PaddlePaddle/ERNIE/tree/develop/ERNIE) (**ERNIE (Baidu)**) 
+- BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding [[NAACL 2019]](https://aclanthology.org/N19-1423.pdf) [[Tensorflow]](https://github.com/google-research/bert) (**BERT**)
+- Improving Language Understanding by Generative Pre-Training [[OpenAI 2018]](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf) (**GPT**)
+- Universal Language Model Fine-tuning for Text Classification.[[ACL 2018]](https://www.aclweb.org/anthology/P18-1031) [[project](http://nlp.fast.ai/category/classification.html)] (**ULMFiT**)
+- Deep contextualized word representations [[NAACL 2018]](https://aclanthology.org/N18-1202.pdf) [[project](https://allennlp.org/elmo)] (**ELMo**)
+- Deep Learning of Representations for Unsupervised and Transfer Learning [[ICML 2012 workshop]](http://proceedings.mlr.press/v27/bengio12a/bengio12a.pdf)
+- Extracting and Composing Robust Features with Denoising Autoencoders [[ICML 2008]](https://www.cs.toronto.edu/~larocheh/publications/icml-2008-denoising-autoencoders.pdf)
 
 ### Contrastive Learning
 **Survey**
