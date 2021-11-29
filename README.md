@@ -6,10 +6,8 @@
 This repo is a collection of AWESOME things about transferablity in deep learning, including papers, code, etc. Feel free to star and fork.
 We do not aim to cover everything about transferablity, but aim to select the most worth reading papers.
 
-![alt Overview](png/overview.pdf)
+![Overview](https://github.com/thuml/Awesome-Transferability-in-Deep-Learning/blob/main/png/overview.png)
 
-
-- [Contents](#contents)
 - [Introduction](#introduction)
 - [Pre-Training Models](#pre-training-models)
 - [Supervised Pre-Training](#supervised-pre-training)
@@ -287,7 +285,17 @@ We do not aim to cover everything about transferablity, but aim to select the mo
 - Self-Ensembling for Visual Domain Adaptation [[ICLR 2018]](https://openreview.net/forum?id=rkpoTaxA-) (**Self-Ensemble**)
 - Asymmetric Tri-training for Unsupervised Domain Adaptation [[ICML 2017]](http://proceedings.mlr.press/v70/saito17a.html) [[TensorFlow]](https://github.com/ksaito-ut/atda) (**ATT**)
 
+## Evaluation
+### Cross-Task Evaluation
 
+- General Language Understanding Evaluation (GLUE) [[ICLR 2019]](https://openreview.net/pdf?id=rJ4km2R5t7) [[Website]](https://gluebenchmark.com/)
+
+### Cross-Domain Evaluation
+
+- The Many Faces of Robustness: A Critical Analysis of Out-of-Distribution Generalization [[ICCV 2021]](https://openaccess.thecvf.com/content/ICCV2021/papers/Hendrycks_The_Many_Faces_of_Robustness_A_Critical_Analysis_of_Out-of-Distribution_ICCV_2021_paper.pdf) [[Download]](https://github.com/hendrycks/imagenet-r) **(ImageNet-R)** 
+- Learning Robust Global Representations by Penalizing Local Predictive Power [[NIPS 2019]](https://proceedings.neurips.cc/paper/2019/file/3eefceb8087e964f89c2d59e8a249915-Paper.pdf) [[Download]](https://github.com/HaohanWang/ImageNet-Sketch) **(ImageNet-Sketch)**
+- Moment Matching for Multi-Source Domain Adaptation [[ICCV 2019]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Peng_Moment_Matching_for_Multi-Source_Domain_Adaptation_ICCV_2019_paper.pdf) [[Website]](http://ai.bu.edu/M3SDA/) **(DomainNet)**
+- XNLI: Evaluating Cross-lingual Sentence Representations [[EMNLP 2018]](https://aclanthology.org/D18-1269.pdf) [[Download]](https://github.com/facebookresearch/XNLI)
 
 
 
