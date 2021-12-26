@@ -36,8 +36,13 @@ We do not aim to cover everything about transferablity, but aim to select the mo
 
 #### Resources
 
-- **Transformers** [[Library]](https://github.com/huggingface/transformers)
+- **Transformers**: State-of-the-art Natural Language Processing [[Library]](https://github.com/huggingface/transformers) [[pdf]](https://arxiv.org/pdf/1910.03771.pdf)
 - **PyTorch Image Models** [[Library]](https://github.com/rwightman/pytorch-image-models)
+
+#### Survey
+- On the Opportunities and Risks of Fondattion Model [[pdf]](https://arxiv.org/pdf/2108.07258.pdf)
+- Pre-Trained Models: Past, Present and Future [[pdf]](https://arxiv.org/pdf/2106.07139.pdf)
+- Pre-trained Models for Natural Language Processing: A Survey [[pdf]](https://arxiv.org/pdf/2003.08271.pdf)
 
 #### Paper
 - **ViT** - An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale [[ICLR 2021]](https://openreview.net/pdf?id=YicbFdNTTy) [[Code]](https://github.com/google-research/vision_transformer)
@@ -90,11 +95,11 @@ We do not aim to cover everything about transferablity, but aim to select the mo
 - **IRM** - Invariant Risk Minimization [[Arixv 5 Jul 2019]](https://arxiv.org/abs/1907.02893) [[Code]](https://github.com/facebookresearch/InvariantRiskMinimization) [[TLlib]](https://github.com/thuml/Transfer-Learning-Library/blob/master/examples/domain_generalization/image_classification/irm.py)
 
 ## Unsupervised Pre-Training
-
-### Generative Learning
 #### Survey
 
 - Self-supervised Learning: Generative or Contrastive [[TKDE 2021]](https://ieeexplore.ieee.org/abstract/document/9462394)
+
+### Generative Learning
 
 #### Paper
 - **MAE** - Masked Autoencoders Are Scalable Vision Learners [[arXiv 11 Nov 2021]](https://arxiv.org/abs/2111.06377)
@@ -137,9 +142,6 @@ We do not aim to cover everything about transferablity, but aim to select the mo
 
 
 ## Task Adaptation
-#### Resources
-- **TLlib** [[Library]](https://github.com/thuml/Transfer-Learning-Library)
-
 #### Paper
 - Intrinsic Dimensionality Explains the Effectiveness of Language Model Fine-Tuning
   [[ACL 2021 Outstanding]](https://aclanthology.org/2021.acl-long.568.pdf)
@@ -148,6 +150,9 @@ We do not aim to cover everything about transferablity, but aim to select the mo
 - **OverFeat**: Integrated Recognition, Localization and Detection using Convolutional Networks [[arXiv 21 Dec 2013]](https://arxiv.org/abs/1312.6229)
 
 ### Catastrophic Forgetting
+#### Resources
+- **TLlib** [[Library]](https://github.com/thuml/Transfer-Learning-Library)
+
 #### Paper
 - **Bi-tuning** of pre-trained representations [[arXiv 12 Nov 2020]](https://arxiv.org/abs/2011.06182) [[TLlib]](https://github.com/thuml/Transfer-Learning-Library/blob/master/examples/task_adaptation/image_classification/bi_tuning.py)
 - **StochNorm** - Stochastic Normalization [[NIPS 2020]](https://proceedings.neurips.cc/paper/2020/file/bc573864331a9e42e4511de6f678aa83-Paper.pdf) [[Pytorch]](https://github.com/thuml/StochNorm) [[TLlib]](https://github.com/thuml/Transfer-Learning-Library/blob/master/examples/task_adaptation/image_classification/stochnorm.py) 
@@ -179,7 +184,7 @@ We do not aim to cover everything about transferablity, but aim to select the mo
 
 ### Parameter Efficiency
 #### Resources
-- adapter-transformers [[Library]](https://github.com/Adapter-Hub/adapter-transformers)
+- **AdapterHub**: A Framework for Adapting Transformers [[Library]](https://github.com/Adapter-Hub/adapter-transformers) [[EMNLP 2020]](https://arxiv.org/pdf/2007.07779.pdf)
 
 #### Paper
 - **Diff Pruning** - Parameter-Efficient Transfer Learning with Diff Pruning [[ACL 2021]](https://aclanthology.org/2021.acl-long.378.pdf) [[Pytorch]](https://github.com/dguo98/DiffPruning)
@@ -194,6 +199,7 @@ We do not aim to cover everything about transferablity, but aim to select the mo
 - Pretrain, Prompt, Predict [[Paper List]](http://pretrain.nlpedia.ai/)
 - Few-Shot Papers [[Paper List]](https://github.com/tata1661/FSL-Mate/tree/master/FewShotPapers)
 - few-shot [[Library]](https://github.com/oscarknagg/few-shot)
+- OpenPrompt [[Library]](https://github.com/thunlp/OpenPrompt)
 
 #### Survey
 - Generalizing from a Few Examples: A Survey on Few-Shot Learning [[10 Apr 2019]](https://arxiv.org/abs/1904.05046)
@@ -255,7 +261,7 @@ We do not aim to cover everything about transferablity, but aim to select the mo
 - Simultaneous Deep Transfer Across Domains and Tasks [[ICCV 2015]](https://openaccess.thecvf.com/content_iccv_2015/papers/Tzeng_Simultaneous_Deep_Transfer_ICCV_2015_paper.pdf) 
 - **DANN** - Unsupervised Domain Adaptation by Backpropagation [[ICML 2015]](http://proceedings.mlr.press/v37/ganin15.pdf) [[Caffe(Official)]](https://github.com/ddtm/caffe/tree/grl) [[Tensorflow]](https://github.com/shucunt/domain_adaptation) [[Pytorch]](https://github.com/fungtion/DANN)
 
-**Application**
+**Paper for Application**
 - **D-adapt** - Decoupled Adaptation for Cross-Domain Object Detection [[arXiv 6 Oct 2021]](https://arxiv.org/abs/2110.02578) [[TLib]](https://github.com/thuml/Transfer-Learning-Library/tree/dev-da-object-detection/examples/domain_adaptation/object_detection/d_adapt)
 - **ADVENT**: Adversarial Entropy Minimization for Domain Adaptation in Semantic Segmentation [[CVPR 2019 Oral]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Vu_ADVENT_Adversarial_Entropy_Minimization_for_Domain_Adaptation_in_Semantic_Segmentation_CVPR_2019_paper.pdf) [[Pytorch]](https://github.com/valeoai/ADVENT) [[TLlib]](https://github.com/thuml/Transfer-Learning-Library/blob/master/examples/domain_adaptation/semantic_segmentation/advent.py) 
 - **SWDA** - Strong-Weak Distribution Alignment for Adaptive Object Detection [[CVPR 2019]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Saito_Strong-Weak_Distribution_Alignment_for_Adaptive_Object_Detection_CVPR_2019_paper.pdf) [[Pytorch]](https://github.com/VisionLearningGroup/DA_Detection)
@@ -288,6 +294,9 @@ We do not aim to cover everything about transferablity, but aim to select the mo
 - **GAN** - Generative Adversarial Nets [[NIPS 2014]](https://proceedings.neurips.cc/paper/2014/file/5ca3e9b122f61f8f06494c97b1afccf3-Paper.pdf)
 
 ### Semi-Supervised Learning
+#### Survey
+- An Overview of Deep Semi-Supervised Learning [[pdf]](https://arxiv.org/pdf/2006.05278.pdf)
+- Semi-Supervised Learning [[pdf]](https://www.google.com/search?q=Semi-Supervised+Learning+Book&oq=Semi-Supervised+Learning+Book&aqs=chrome..69i57.332j0j7&sourceid=chrome&ie=UTF-8)
 
 #### Paper
 - Cycle Self-Training for Domain Adaptation [[NIPS 2021]](https://papers.nips.cc/paper/2021/file/c1fea270c48e8079d8ddf7d06d26ab52-Paper.pdf) [[Pytorch]](https://github.com/Liuhong99/CST)
@@ -303,8 +312,8 @@ We do not aim to cover everything about transferablity, but aim to select the mo
 
 ## Evaluation
 #### Cross-Task Evaluation
-
-- GLUE - General Language Understanding Evaluation [[ICLR 2019]](https://openreview.net/pdf?id=rJ4km2R5t7) [[Website]](https://gluebenchmark.com/)
+- **VTAB** - The Visual Task Adaptation BenchmarkDownload [[pdf]](https://openreview.net/pdf?id=BJena3VtwS) [[Code]](https://github.com/google-research/task_adaptation)
+- **GLUE** - General Language Understanding Evaluation [[ICLR 2019]](https://openreview.net/pdf?id=rJ4km2R5t7) [[Website]](https://gluebenchmark.com/)
 
 #### Cross-Domain Evaluation
 
