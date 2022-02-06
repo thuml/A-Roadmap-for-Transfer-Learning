@@ -5,6 +5,13 @@
 
 This repo is a collection of AWESOME things about transferablity in deep learning, including papers, code, etc. Feel free to star and fork.
 We do not aim to cover everything about transferablity, but aim to select the most worth reading papers.
+Feel free to let us know the missing papers (issue or pull request).
+
+[**Survey**](https://arxiv.org/pdf/2201.05867.pdf) | 
+[**Library**](https://github.com/thuml/Transfer-Learning-Library) |
+[**Website**](https://transfer.thuml.ai/) |
+[中文介绍](https://zhuanlan.zhihu.com/p/463332254)
+
 
 ![Overview](https://github.com/thuml/Awesome-Transferability-in-Deep-Learning/blob/main/png/overview.png)
 
