@@ -3,9 +3,10 @@
 
 [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-This repo is a collection of AWESOME things about transferablity in deep learning, including papers, code, etc. Feel free to star and fork.
-We do not aim to cover everything about transferablity, but aim to select the most worth reading papers.
+This repo is a collection of AWESOME papers, code related with transfer learning, pre-training and domain adaptation etc. Feel free to star and fork.
 Feel free to let us know the missing papers (issue or pull request).
+
+This repo is also related with our latest survey, **Transferability in Deep Learning**
 
 [**Survey**](https://arxiv.org/pdf/2201.05867.pdf) | 
 [**Library**](https://github.com/thuml/Transfer-Learning-Library) |
@@ -13,7 +14,7 @@ Feel free to let us know the missing papers (issue or pull request).
 [中文介绍](https://zhuanlan.zhihu.com/p/463332254)
 
 
-![Overview](https://github.com/thuml/Awesome-Transferability-in-Deep-Learning/blob/main/png/overview.png)
+![Overview](https://github.com/thuml/Awesome-Transfer-Learning/blob/main/png/overview.png)
 
 - [Introduction](#introduction)
 - [Pre-Training Models](#pre-training-models)
