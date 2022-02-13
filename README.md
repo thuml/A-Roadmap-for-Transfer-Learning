@@ -1,4 +1,4 @@
-# Awesome-Transferability-in-Deep-Learning
+# Awesome-Transfer-Learning
 ## Introduction
 
 [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
